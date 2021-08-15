@@ -210,6 +210,15 @@ describe("parse()", () => {
             );
         });
 
+        it("should pass sourceFile through", () => {
+            const ast = espree.parse("var foo = bar;", {
+                loc: true,
+                sourceFile: "the/source.js"
+            });
+
+            assert.strictEqual(ast.loc.source, "the/source.js");
+        });
+
         // https://github.com/eslint/espree/issues/470
         it("Should throw on invalid `(a = 1) = t`", () => {
             assert.throws(() => {
