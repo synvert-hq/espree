@@ -1,3 +1,24 @@
+v9.5.0 - March 10, 2023
+
+* [`4368788`](https://github.com/eslint/espree/commit/43687882d30855033ec4db0a11514aa85c0dd8d0) feat: Add parser name (#562) (Nicholas C. Zakas)
+* [`fe89a66`](https://github.com/eslint/espree/commit/fe89a6677dbf3c7ce4df3b58c1156eac73b792a4) ci: use LTS node version in lint job (#561) (Nitin Kumar)
+* [`5a70a0b`](https://github.com/eslint/espree/commit/5a70a0b361af7b8f04371a5b134c610c2fd9dc0f) chore: Add triage action (#560) (Nicholas C. Zakas)
+
+v9.4.1 - November 6, 2022
+
+* [`ecb6cde`](https://github.com/eslint/espree/commit/ecb6cded6619cf57ce9945793b179323cfdc61f0) ci: add node v19 (#558) (Koichi ITO)
+* [`30f5f2f`](https://github.com/eslint/espree/commit/30f5f2fe258fc32bb4d5b4b3bbf4d6aef13b6d1d) docs: update README for ECMAScript 2023 (#557) (Sosuke Suzuki)
+
+v9.4.0 - August 26, 2022
+
+* [`411d697`](https://github.com/eslint/espree/commit/411d697af3e65c92c13921bfb7baa7aad60242eb) feat: Support ES2023 and hashbangs (#556) (Brandon Mills)
+
+v9.3.3 - July 31, 2022
+
+* [`b1eac6d`](https://github.com/eslint/espree/commit/b1eac6d9687b2cb48dd28e8c11626afde22fa6cf) fix: don't recognize directives in ES3, allow parenthesized rest target (#554) (Milos Djermanovic)
+* [`bd3b5c6`](https://github.com/eslint/espree/commit/bd3b5c66db5569efdf1446ecf1dfd396e4b5689c) ci: update github actions (#552) (Amaresh  S M)
+* [`45fec88`](https://github.com/eslint/espree/commit/45fec887c310538ea03b4f758db5fdddd0a4687f) chore: update package.json (#550) (Deepshika S)
+
 v9.3.2 - May 6, 2022
 
 * [`6c718af`](https://github.com/eslint/espree/commit/6c718af090c1b5dd25d74a2ecfc65fbee0c00716) fix: "use strict" should not trigger strict mode in es3. (#547) (唯然)
