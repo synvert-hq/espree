@@ -5,6 +5,7 @@
   "homepage": "https://github.com/eslint/espree",
   "main": "dist/espree.cjs",
   "type": "module",
+  "types": "index.d.ts",
   "exports": {
     ".": [
       {
