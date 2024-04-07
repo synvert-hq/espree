@@ -1,5 +1,5 @@
 {
-  "name": "@xinminlabs/espree",
+  "name": "@synvert-hq/espree",
   "description": "An Esprima-compatible JavaScript parser built on Acorn",
   "author": "Nicholas C. Zakas <nicholas+npm@nczconsulting.com>",
   "homepage": "https://github.com/eslint/espree",
