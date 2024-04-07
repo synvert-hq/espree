@@ -5,6 +5,7 @@ node_modules
 npm-debug.log
 _test.js
 .idea
+.vscode
 .nyc_output
 .eslint-release-info.json
 yarn.lock

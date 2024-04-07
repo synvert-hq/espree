@@ -1,3 +1,68 @@
+# Changelog
+
+## [10.0.1](https://github.com/eslint/espree/compare/v10.0.0...v10.0.1) (2024-02-09)
+
+
+### Chores
+
+* upgrade eslint-visitor-keys@4.0.0 ([#595](https://github.com/eslint/espree/issues/595)) ([6254a91](https://github.com/eslint/espree/commit/6254a915ac1025e8371a340067d6aba771fe4b11))
+
+## [10.0.0](https://github.com/eslint/espree/compare/v9.6.1...v10.0.0) (2024-01-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Require Node.js ^18.18.0 || ^20.9.0 || >=21.1.0 ([#589](https://github.com/eslint/espree/issues/589))
+
+### Features
+
+* Require Node.js ^18.18.0 || ^20.9.0 || &gt;=21.1.0 ([#589](https://github.com/eslint/espree/issues/589)) ([e79cfa4](https://github.com/eslint/espree/commit/e79cfa490aa2d23c7d4deda0e99f2190e508a638))
+
+
+### Bug Fixes
+
+* upgrade acorn v8.11.3 ([#590](https://github.com/eslint/espree/issues/590)) ([6d30382](https://github.com/eslint/espree/commit/6d303829686dd1e3a425438e816025d7193ec915))
+
+
+### Chores
+
+* Add PRs to triage project ([#580](https://github.com/eslint/espree/issues/580)) ([086555e](https://github.com/eslint/espree/commit/086555ed960bd9cdbe9818cf962eaa1f5f32b737))
+* Remove add-to-triage ([#583](https://github.com/eslint/espree/issues/583)) ([3907385](https://github.com/eslint/espree/commit/39073850d82db9f66af5c21017fdf2c250f9b419))
+* run tests in Node.js 21 ([#585](https://github.com/eslint/espree/issues/585)) ([1584ddb](https://github.com/eslint/espree/commit/1584ddb00f0b4e3ada764ac86ae20e1480003de3))
+* standardize npm script names ([#582](https://github.com/eslint/espree/issues/582)) ([b0767ef](https://github.com/eslint/espree/commit/b0767ef7ba6979a1005c93c49c41aff1af483e07))
+* use eslint-config-eslint@9.0.0 ([#584](https://github.com/eslint/espree/issues/584)) ([ec949bc](https://github.com/eslint/espree/commit/ec949bcf381d33377d0b05cecd080e8a3a01b5f3))
+
+## [9.6.1](https://github.com/eslint/espree/compare/v9.6.0...v9.6.1) (2023-07-14)
+
+
+### Chores
+
+* generate provenance statements when release ([#579](https://github.com/eslint/espree/issues/579)) ([c1ef82c](https://github.com/eslint/espree/commit/c1ef82c8671bca18f13911ff5c6ae40b40b72c87))
+* switch to eslint flat config ([#577](https://github.com/eslint/espree/issues/577)) ([408eabd](https://github.com/eslint/espree/commit/408eabd6eeae0dbcf5aa1791499fc82e391d8797))
+
+## [9.6.0](https://github.com/eslint/espree/compare/v9.5.2...v9.6.0) (2023-06-19)
+
+
+### Features
+
+* Support ES2024 and regexp v flag ([#575](https://github.com/eslint/espree/issues/575)) ([4cfc062](https://github.com/eslint/espree/commit/4cfc0626c534377601d48e8cad38976da6b85964))
+
+## [9.5.2](https://github.com/eslint/espree/compare/v9.5.1...v9.5.2) (2023-05-05)
+
+
+### Chores
+
+* add `npm install` step to release-please workflow ([#573](https://github.com/eslint/espree/issues/573)) ([d8900c1](https://github.com/eslint/espree/commit/d8900c1598358dec85708ef5373fce4eafa5af1c))
+* run tests on Node.js v20 ([#571](https://github.com/eslint/espree/issues/571)) ([adf478e](https://github.com/eslint/espree/commit/adf478e20d5db2b4607bc11ceef3363b7c7dfffb))
+* set up release-please ([#569](https://github.com/eslint/espree/issues/569)) ([abda10f](https://github.com/eslint/espree/commit/abda10f71c9486e84c9a06923b57801eaa839516))
+* upgrade eslint-visitor-keys@3.4.1 ([#574](https://github.com/eslint/espree/issues/574)) ([8e73f11](https://github.com/eslint/espree/commit/8e73f113e019e9a62fd6076c565e9fd4f7f4ff52))
+
+v9.5.1 - March 28, 2023
+
+* [`91d48e9`](https://github.com/eslint/espree/commit/91d48e96a5f1173e7df4c3df15b565598aab7b41) chore: upgrade eslint-visitor-keys@3.4.0 (#568) (Milos Djermanovic)
+* [`37f6b17`](https://github.com/eslint/espree/commit/37f6b17376efc2e93441ef3dc28d347918c475f0) fix: remove useless sourcemap url (fixes #566) (#567) (余腾靖)
+* [`5c85ea8`](https://github.com/eslint/espree/commit/5c85ea8a20d505342e48af456108e96edd8e20da) chore: Add `lint-staged` (#565) (coderaiser)
+
 v9.5.0 - March 10, 2023
 
 * [`4368788`](https://github.com/eslint/espree/commit/43687882d30855033ec4db0a11514aa85c0dd8d0) feat: Add parser name (#562) (Nicholas C. Zakas)
