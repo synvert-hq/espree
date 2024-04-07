@@ -25,7 +25,7 @@ export interface Options {
   | 2022
   | 2023
   | "latest";
-  sourceType?: "script" | "module";
+  sourceType?: "script" | "module" | "commonjs";
   sourceFile?: string;
   ecmaFeatures?: {
     jsx?: boolean;
