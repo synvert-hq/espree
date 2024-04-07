@@ -13,6 +13,8 @@ export interface Options {
   | 10
   | 11
   | 12
+  | 13
+  | 14
   | 2015
   | 2016
   | 2017
@@ -21,6 +23,7 @@ export interface Options {
   | 2020
   | 2021
   | 2022
+  | 2023
   | "latest";
   sourceType?: "script" | "module";
   sourceFile?: string;
